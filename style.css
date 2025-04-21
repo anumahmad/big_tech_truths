@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+nav a {
+  color: #f4d03f;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #58d68d;
+  text-shadow: 0 0 8px #58d68d;
+}
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 170, 0.2);
+  text-align: center;
+}
+h1, h2 {
+  color: #f4d03f;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+button {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #58d68d;
+}
+#feedback, #countdown {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fad7a0;
+}
+.start-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  color: #1c1c1c;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: background 0.3s ease;
+}
+.start-btn:hover {
+  background: linear-gradient(to right, #ffdd00, #ffeea2);
+  color: black;
+}
+.resources {
+  list-style: none;
+  padding: 0;
+}
+.resources li {
+  margin: 12px 0;
+}
+.resources a {
+  color: #82e0aa;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.resources a:hover {
+  color: #f7dc6f;
+  text-decoration: underline;
+}
